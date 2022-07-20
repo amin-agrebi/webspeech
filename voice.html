@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+  <style>
+    body {
+      background: #141414;
+    }
+  </style>
+
+  <title>Type-N-Speak</title>
+</head>
+
+<body class="text-white">
+  <div class="container text-center">
+    <img src="img/speech.png" alt="" class="mb-5">
+            <div class="app">
+                 <div class="input-single" >
+                    <textarea  id="note-textarea" class="form-control" placeholder="استخدم المايكروفون لتسجيل الملاحظات." rows="6"
+                    , width="200" ></textarea>
+                </div>     
+
+                 <button id="start-record-btn" class="btn btn-primary btn-block" title="Start Recording">تسجيل</button>
+                <button id="pause-record-btn" class="btn btn-danger btn-block" title="Pause Recording">ايقاف</button>
+                <button id="save-note-btn" class="btn btn-warning btn-block" title="Save Note">حفظ</button> 
+        </form>
+                         <p id="recording-instructions">اضغط على <strong>تسجيل</strong> ثم السماح لاستخدام المايكروفون.</p>
+                
+                <h3>ملاحظاتي</h3>
+                <ul id="notes">
+                    
+                </ul>
+        
+      </div>
+    </div>
+  </div>
+ </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
