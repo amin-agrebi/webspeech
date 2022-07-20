@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ملاحظات بالصوت</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+       <!-- CSS only -->
+       
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+ 
+    </head>
+    <center>
+    <body>
+        <div class="container">
+ 
+            <h1>ملاحظات باستخدام الصوت باللغة العربية</h1>
+           
+        
+ 
+            
+ 
+            <div class="app">
+                <h3>اضف ملاحظة جديده</h3>
+                <div class="input-single" >
+                    <textarea  id="note-textarea" class="form-control" placeholder="استخدم المايكروفون لتسجيل الملاحظات." rows="6"
+                    , width="200" ></textarea>
+                </div>        
+                <button id="start-record-btn" title="Start Recording">تسجيل</button>
+                <button id="pause-record-btn" title="Pause Recording">ايقاف</button>
+                <button id="save-note-btn" title="Save Note">حفظ</button>  
+                <p id="recording-instructions">اضغط على <strong>تسجيل</strong> ثم السماح لاستخدام المايكروفون.</p>
+                
+                <h3>ملاحظاتي</h3>
+                <ul id="notes">
+                    
+                </ul>
+ 
+            </div>
+ 
+        </div>
+ 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+ 
+        
+ 
+    </body>
+    </center>
+</html>
